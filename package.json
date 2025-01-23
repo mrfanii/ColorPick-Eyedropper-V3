@@ -1,12 +1,17 @@
 {
-    "name": "colorpick-eyedropper", 
-    "license": "MPL 2.0", 
-    "author": "Sam Larison", 
-    "homepage": "http://vidsbee.com/ColorPick/", 
-    "version": "0.9", 
-    "fullName": "Colorpick Eyedropper", 
-    "id": "jid1-kCS67LPIOiGf2Q", 
-    "icon": "data/img/icon48.png", 
-    "icon64": "data/img/icon64.png", 
-    "description": "A simple eye-dropper & color-picker tool allowing you to select color values from webpages."
+  "name": "ColorPick Eyedropper (V3)",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=12.6.0"
+  }
 }

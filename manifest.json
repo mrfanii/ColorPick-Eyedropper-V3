@@ -1,0 +1,59 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "3.0.0",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "128": "img/icon128.png",
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png",
+    "64": "img/icon64.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "img/icons/no-shadow/icon16.png",
+      "19": "img/icons/no-shadow/icon19.png",
+      "32": "img/icons/no-shadow/icon32.png",
+      "38": "img/icons/no-shadow/icon38.png",
+      "48": "img/icons/no-shadow/icon48.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "__MSG_extName__"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["js/Cr.js", "js/options_prefs.js", "js/colorpick.user.js", "js/color-input.user.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "img/icon16.png",
+        "img/icon64.png",
+        "img/icons/palette/icon32.png",
+        "img/icons/history/icon32.png",
+        "img/icons/search/icon32.png",
+        "img/game/bunny.webp",
+        "img/game/rabbit.webp",
+        "img/crosshair.png",
+        "img/close.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
