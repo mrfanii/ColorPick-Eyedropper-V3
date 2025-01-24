@@ -5,7 +5,7 @@ importScripts('/js/options_prefs.js');
 importScripts('/js/options_prefs_helpers.js');
 
 function fromPrefs() {
-  var iconWasCustom = localStorage['iconIsBitmap'] || localStorage['appleIcon'];
+  var iconWasCustom = localStorage['iconIsBitmap'] === 'true' || localStorage['appleIcon'] === 'true';
   for (var i in pOptions) {
     if (typeof pOptions[i].def == 'boolean') options[i] = localStorage[i] === 'true' ? true : localStorage[i] === 'false' ? false : pOptions[i].def;
     else options[i] = localStorage[i] ? localStorage[i] : pOptions[i].def;
@@ -30,10 +30,10 @@ function fromPrefs() {
 }
 
 function defaultIcon(force) {
-  if (localStorage['iconIsBitmap'] || localStorage['appleIcon'] || force) {
+  if (localStorage['iconIsBitmap'] === 'true' || localStorage['appleIcon'] === 'true' || force) {
     var iconPath = 'img/';
-    if (localStorage['appleIcon']) iconPath += 'apple/';
-    if (localStorage['resetIcon'])
+    if (localStorage['appleIcon'] === 'true') iconPath += 'apple/';
+    if (localStorage['resetIcon'] === 'true')
       chrome.action.setIcon({ path: { 19: chrome.runtime.getURL(iconPath + 'icon19.png'), 38: chrome.runtime.getURL(iconPath + 'icon38.png') } });
     return true;
   }
@@ -157,12 +157,6 @@ function start() {
 
   loadSettingsFromChromeSyncStorage(function () {
     fromPrefs();
-
-    chrome.storage.sync.get(null, function (obj) {
-      console.log({ obj });
-    });
-
-    console.log(options, localStorage);
   });
 }
 start();
