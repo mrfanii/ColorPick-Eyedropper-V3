@@ -1,4 +1,4 @@
-var _ext_homepage = 'https://chrome.google.com/webstore/detail/color-picker/ohcpnigalekghcmgcdcenkpelffpdolg';
+var _ext_homepage = 'https://chrome.google.com/webstore/detail/nmjfgehlhiknpmfimbicbgnmppklloia';
 
 var nbsp = '\u00A0';
 var infoicon = '\u24D8';

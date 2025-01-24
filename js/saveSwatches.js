@@ -4,7 +4,7 @@ let nl = '\u000A';
 let tab = '\u0009';
 let nbsp = '\u00A0';
 let CSS3ColorFormat = '(#1, #2, #3)';
-let _ext_homepage = 'https://chrome.google.com/webstore/detail/color-picker/ohcpnigalekghcmgcdcenkpelffpdolg';
+let _ext_homepage = 'https://chrome.google.com/webstore/detail/nmjfgehlhiknpmfimbicbgnmppklloia';
 let uncrawlable = false;
 
 function formatColorValues(a, b, c, pcta, pctb, pctc) {

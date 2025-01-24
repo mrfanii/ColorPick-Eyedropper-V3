@@ -1,7 +1,7 @@
 let uc_staro = '\u2606';
 let uc_starf = '\u2605';
-let ln_sprt = 'https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg/support';
-let ln_rate = 'https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg/reviews';
+let ln_sprt = 'https://chrome.google.com/webstore/detail/nmjfgehlhiknpmfimbicbgnmppklloia/support';
+let ln_rate = 'https://chrome.google.com/webstore/detail/nmjfgehlhiknpmfimbicbgnmppklloia/reviews';
 let interactiveMode = false;
 
 function createRatings() {
