@@ -60,7 +60,7 @@
       "message": "A zoomed eyedropper & color chooser tool that allows you to select color values from webpages and more."
    },
    "extName": {
-      "message": "ColorPick Eyedropper"
+      "message": "ColorPick Eyedropper (V3)"
    },
    "fetchSync": {
       "message": "Obtingueu la configuració des de l'emmagatzematge de sincronització del compte de Google"

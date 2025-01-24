@@ -137,7 +137,7 @@
    },
    "extName": {
       "description": "The extension name may translate easily from 'Color Pick Eyedropper' however it is preferred to leave it english unless your locale has a matching translation for eyedropper, color, and pick.  If you can omit the space between Color and Pick in your language then please do so.  Eyedropper referrs to what the tool would be called in image editing software such as photoshop in your locale.  Definitions follow: color - the property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light.  pick -  choose (someone or something) from a number of alternatives, typically after careful thought.  eyedropper - a short glass tube with a rubber bulb at one end and a tiny hole at the other, for measuring out drops of medicine or other liquids, (also eyedropper tool) (in image-editing software) a function enabling the user to copy color from any part of an image.",
-      "message": "ColorPick Eyedropper"
+      "message": "ColorPick Eyedropper (V3)"
    },
    "fetchSync": {
       "description": "'Google' refers to the company, 'Account Sync Storage' refers to the ability to synchronize sittings across devices.  This feature pulls the setting stored to the account for display.",
@@ -406,8 +406,8 @@
       "message": "See Terms of Use"
    },
    "selectWithExt": {
-      "description": "'ColorPick Eyedropper' refers to the extName key, see that description for details, if that key is not translated leave this part of the string untranslated",
-      "message": "Select with ColorPick Eyedropper"
+      "description": "'ColorPick Eyedropper (V3)' refers to the extName key, see that description for details, if that key is not translated leave this part of the string untranslated",
+      "message": "Select with ColorPick Eyedropper (V3)"
    },
    "shareClors": {
       "message": "Color of the Day Statistics (See Terms of Use)"
@@ -451,8 +451,8 @@
       "message": "sort"
    },
    "supportColorInputs": {
-      "description": "'ColorPick Eyedropper' refers to the extName key, see that description for details.  'input[type=color]' is an html query selector literal known to developers and should remain intact",
-      "message": "Add ColorPick Eyedropper near input[type=color] fields on websites"
+      "description": "'ColorPick Eyedropper (V3)' refers to the extName key, see that description for details.  'input[type=color]' is an html query selector literal known to developers and should remain intact",
+      "message": "Add ColorPick Eyedropper (V3) near input[type=color] fields on websites"
    },
    "tabletModePrompt": {
       "message": "Zoom to Tablet Edition"
@@ -483,8 +483,8 @@
       "message": "Chase this message for tips and more."
    },
    "tips_4": {
-      "description": "'ColorPick Eyedropper' refers to the extName key, see that description for details, if that key is not translated leave this part of the string untranslated",
-      "message": "Did you know? ColorPick Eyedropper is available for iPhone and Android!  Also you may find the 'Tablet Edition' Extension; see Options."
+      "description": "'ColorPick Eyedropper (V3)' refers to the extName key, see that description for details, if that key is not translated leave this part of the string untranslated",
+      "message": "Did you know? ColorPick Eyedropper (V3) is available for iPhone and Android!  Also you may find the 'Tablet Edition' Extension; see Options."
    },
    "trash_alt_click": {
       "message": "Alternatively you may alt-click some items to remove them."
